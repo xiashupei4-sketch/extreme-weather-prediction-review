@@ -92,7 +92,7 @@ Method mentions measure research attention. Actual model roles are checked separ
 
 ## Evidence status and reproduction boundary
 
-Screening and evidence review were AI-assisted. The dual-workflow audit covered 125 records; its agreement statistics describe **agreement between AI workflows**. Independent paired human screening was not completed. The audit and purposive case dossier support traceable evidence checks but do not estimate population screening accuracy. The incomplete control-query archive supports the reported within-archive comparisons; it does not establish full-query omission rates or temporal trend robustness.
+The screening procedures, audit design, verification status and unresolved decisions are documented in the manuscript’s Materials and Methods and the Supplementary Information. The audit and purposive case dossier support traceable evidence checks but do not estimate population screening accuracy. The incomplete control-query archive supports the reported within-archive comparisons; it does not establish full-query omission rates or temporal trend robustness.
 
 The executable release begins at the **frozen processed coding layer**. It reproduces the numerical summaries and native analyses described above. Raw-record screening, primary-paper reading, title/abstract term extraction, cited-reference reconciliation and the complete sensitivity audit are upstream procedures documented in the paper and supplement; they are not rerun by these three scripts.
 
