@@ -2,7 +2,11 @@
 
 **Data and code accompanying _Beyond Forecast Skill: Two Decades of Data-Driven Prediction of Weather and Climate Extremes (2006–2025)_.**
 
-This repository supports inspection of the review's bibliometric results and task-level evidence synthesis. It provides the English manuscript, Supplementary Information, processed analysis inputs and three executable scripts. Forecast-performance values are linked to the primary studies from which they were extracted and retain their task-specific interpretation.
+**Journal:** companion materials for submission to [Atmospheric Research](https://www.sciencedirect.com/journal/atmospheric-research).
+
+This repository supports inspection of the review's bibliometric results and task-level evidence synthesis. It provides the English manuscript, Supplementary Information, processed analysis inputs and three executable scripts.
+
+The review follows data-driven prediction of weather and climate extremes, including heavy precipitation, heatwaves, drought and storms/cyclones, together with linked hydrological, marine and impact applications. Evidence is organized by forecast target, input availability, target interval and validation design. Reported predictive skill can therefore be assessed alongside the conditions under which it was evaluated.
 
 **Version:** manuscript and supplement archived on 18 November 2026; WoS search and citation snapshot dated 13 October 2026; companion deposit prepared on 19 November 2026.
 
@@ -12,6 +16,14 @@ This repository supports inspection of the review's bibliometric results and tas
 - **Check the numerical results:** run `python3 code/recompute.py`; this requires only Python's standard library.
 - **Inspect individual evidence:** `data/cases.csv` links 30 selected studies to their DOI, source availability, section/table locators, validation design, input availability and reported results.
 - **Inspect native analyses:** `code/native.R` reruns Bibliometrix thematic analyses and R co-citation calculations and exports the preserved VOSviewer inputs.
+
+## Data and code availability
+
+The processed bibliometric data, task-level evidence tables and network inputs supporting this review are publicly available in [`data/`](data/). The analysis scripts and software requirements are provided in [`code/`](code/) and [`requirements.txt`](requirements.txt). Source studies are identified by DOI and evidence locators in the released tables. The scripts reproduce the analyses specified below from the frozen processed inputs.
+
+The source literature was retrieved from the Web of Science Core Collection on 13 October 2026. Third-party full-record/cited-reference exports and article full texts are outside this deposit; access to those original materials remains subject to the respective providers' access and reuse terms. The search query, retrieval date, identifiers and evidence locators supplied here document how to locate the source material. Database contents and citation counts may change after the frozen retrieval date.
+
+**Fixed submission snapshot:** [data](https://github.com/xiashupei4-sketch/extreme-weather-prediction-review/tree/8b81fc3763b9442580d6b2a5515412df139f3bb1/data), [code](https://github.com/xiashupei4-sketch/extreme-weather-prediction-review/tree/8b81fc3763b9442580d6b2a5515412df139f3bb1/code) and [manuscript/supplement](https://github.com/xiashupei4-sketch/extreme-weather-prediction-review/tree/8b81fc3763b9442580d6b2a5515412df139f3bb1/paper). These links identify the exact deposited research materials independently of later README updates. The full commit identifier is `8b81fc3763b9442580d6b2a5515412df139f3bb1`. File integrity can be checked against `SHA256SUMS` in that snapshot.
 
 ## Reproduce the core results
 
